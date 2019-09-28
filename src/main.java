@@ -18,7 +18,7 @@ public class main {
 
             String[] books = {"Java for Dummies"};
 
-            AgentController myAgent = myContainer.createNewAgent("buyer",
+            AgentController myAgent = myContainer.createNewAgent("book-buyer",
                     BookBuyerAgent.class.getCanonicalName(), books);
             myAgent.start();
 
