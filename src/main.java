@@ -17,7 +17,7 @@ public class  main {
             AgentController rma = myContainer.createNewAgent("rma", "jade.tools.rma.rma", null);
             rma.start();
 
-            String[] books = {"Java for Dummies"};
+            String[] books = {"Java"};
 
             AgentController myAgent = myContainer.createNewAgent("book-buyer",
                     BookBuyerAgent.class.getCanonicalName(), books);

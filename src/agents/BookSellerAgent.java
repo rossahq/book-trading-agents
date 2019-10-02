@@ -19,7 +19,7 @@ public class BookSellerAgent extends Agent {
         catalogue = new Hashtable();
 
         myGui = new BookSellerGui(this);
-        myGui.show();
+        myGui.showGui();
 
         addBehaviour(new OfferRequestServer());
         addBehaviour(new PurchaseOrderServer());

@@ -10,7 +10,7 @@ public class BookBuyerAgent extends Agent{
     String nickname = "Peter";
     AID id = new AID(nickname, AID.ISLOCALNAME);
     private String targetBookTitle;
-    private AID[] sellerAgents = { new AID("seller1", AID.ISLOCALNAME),
+    private AID[] sellerAgents = { new AID("sellerA", AID.ISLOCALNAME),
                                     new AID("seller2", AID.ISLOCALNAME)};
     protected void setup() {
         System.out.println("Hello! Buyer-agent " + getAID().getName()+ " is ready");
